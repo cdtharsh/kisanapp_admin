@@ -1,0 +1,40 @@
+name: kisanapp_admin
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  dropdown_button2: ^2.3.9
+  file_picker: ^8.1.7
+  fl_chart: ^0.70.1
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.16
+  gap: ^3.0.1
+  get: ^4.6.6
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  image_picker_windows: ^0.2.1+1
+  intl: ^0.20.1
+  provider: ^6.1.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/

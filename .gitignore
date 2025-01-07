@@ -1,0 +1,76 @@
+# Ignore Flax project files
+Binaries/
+Cache/
+Logs/
+Output/
+Screenshots/
+*.HotReload.*
+
+# Ignore Visual Studio project files (generated locally)
+*.csproj
+*.sln
+
+# Ignore thumbnails created by Windows
+Thumbs.db
+
+# Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+
+# Ignore Nuget packages folder
+packages/
+
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/Runner.xcworkspace
+ios/Podfile.lock
+ios/Podfile
+ios/.symlinks/
+.idea/
+.vscode/
+
+# Android related
+.android/
+*.iml
+.gradle/
+local.properties
+# User-specific configurations
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Flutter generated files
+.generated/
